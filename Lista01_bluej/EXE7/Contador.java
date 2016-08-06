@@ -4,7 +4,7 @@ public class Contador
 {
 	public String texto;
 	public int size_str, i = 0;
-	public String texto_quebrado [];
+	public String [] texto_quebrado;
 
 	
 	Contador(String frase) 
@@ -28,20 +28,22 @@ public class Contador
 	}
 
 	public void conta()
-	{
-		for (int j = 0; j < i ;j++ ) 
+	{	
+		int j, k, x = 1;
+		for (j = 0; j < i ;j++ ) 
 		{
-			for (int k = 1; k < i ;k++ ) 
+			for (k = 0; k < i ;k++ ) 
 			{
-				if (texto_quebrado[j].equals(texto_quebrado[k])) 
-				{
-					System.out.println(texto_quebrado[j]);
+				
+				if ((texto_quebrado[j].equals(texto_quebrado[k])) && j !=k) 
+				{	
+					x++;
 				}
-				else
-				{
-					System.out.println("nada");
-				}
+
+
 			}
-		}
+			System.out.println(texto_quebrado[j] +": "+ x);
+			x = 1;
+			}
 	}
 }
