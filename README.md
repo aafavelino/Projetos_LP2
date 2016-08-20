@@ -1,5 +1,5 @@
-** Atividades da disciplina de Linguagem de programação II 
-*** Professor:
+**Atividades da disciplina de Linguagem de programação II 
+***Professor:
 Emerson Alencar
-*** Universidade:
+***Universidade:
 UFRN- Universidade Federal do Rio Grande do Norte
