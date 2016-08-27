@@ -75,7 +75,7 @@ public class Estoque
 			Produto comp = it.next();
 			if (comp.getNomeProd().equals(nome)) 
 			{
-				JOptionPane.showMessageDialog(null, comp.getCodigo() + " " + comp.getNomeProd() + " (" + comp.getQuantidade() + ")");
+				JOptionPane.showMessageDialog(null, comp.getCodigo() + " " + comp.getNomeProd() + " (" + comp.getQuantidade() + ")" + " R$ " + comp.getPreco());
 				i++;
 			}
 		}
