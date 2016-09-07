@@ -2,7 +2,7 @@
 ###Atividades Desenvolvidas na cadeira de Linguagem de Programação II
 
 ##Descrição
-Apenas as resoluções das atividades feitas em sala de aula ou em casa...
+Exemplos e resoluções das atividades feitas em sala de aula ou em casa...
 
 ##Autor:
 
