@@ -1,0 +1,13 @@
+
+public class Aplicacao {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ContaCorrente cc = new ContaCorrente(200);
+		ContaInvestimento ci = new ContaInvestimento(300);
+	}
+
+}

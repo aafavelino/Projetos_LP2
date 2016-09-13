@@ -1,0 +1,9 @@
+
+public class Quadrado implements AreaCalculavel{
+
+	public void calculaArea() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

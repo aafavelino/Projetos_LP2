@@ -1,0 +1,10 @@
+
+public class Quadrado implements AreaCalculavel{
+	private double lado;
+	
+	public void calculaArea() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class Circulo implements AreaCalculavel{
+	private double raio;
+	private double area;
+	
+	public void calculaArea() {
+		area = 3.1415926535 * raio * raio;
+	}
+
+}

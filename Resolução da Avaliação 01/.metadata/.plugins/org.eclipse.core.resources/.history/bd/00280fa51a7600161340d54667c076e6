@@ -1,0 +1,12 @@
+
+public class Porta implements Cloneable{
+	public void altura(double altura) {
+		
+	}
+	public void largura(double largura) {
+		
+	}
+	public void aberta(boolean aberta) {
+		
+	}
+}

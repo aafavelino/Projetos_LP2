@@ -1,0 +1,13 @@
+
+public class Circulo implements AreaCalculavel{
+	private double raio;
+	private double area;
+	
+	public double calculaArea() {
+		return Math.PI * raio * raio;
+	}
+
+	public void resultado() {
+		System.out.printf("Area: %f ", area);
+	}
+}

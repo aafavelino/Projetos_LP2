@@ -1,0 +1,9 @@
+
+public class ContaInvestimento extends ContaBancaria {
+
+	@Override
+	public double calculaSaldo() {
+		return this.getSaldo() - this.getSaldo() * 5/100;
+	}
+
+}
