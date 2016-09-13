@@ -44,7 +44,6 @@ public class Porta implements Cloneable{
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
-		Porta portinha = new Porta(altura, largura);
 		return super.clone();
 	}
 }
